@@ -1,4 +1,4 @@
-package com.smk;
+package com.smk.cashier;
 
 /**
  * Hello world!

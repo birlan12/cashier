@@ -1,4 +1,4 @@
-package com.smk;
+package com.smk.cashier;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
