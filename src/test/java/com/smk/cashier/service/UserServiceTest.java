@@ -1,11 +1,12 @@
 package com.smk.cashier.service;
 
 import com.smk.cashier.model.User;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Order;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class UserServiceTest {
 

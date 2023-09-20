@@ -39,7 +39,7 @@ public class UserService {
 
     private void writeFile() {
         BufferedWriter bufferedWriter = new BufferedWriter(userServiceWriter);
-        for (int i = 0; 1 < userList.size(); i++) {
+        for (int i = 0; i < userList.size(); i++) {
             User user = userList.get(i);
             StringBuilder sb = new StringBuilder();
             sb.append(user.getUserName());
@@ -59,9 +59,7 @@ public class UserService {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
-
 
     private User parsingLineToUser(String string) {
         StringTokenizer st = new StringTokenizer(string, "|");
@@ -86,5 +84,5 @@ public class UserService {
     public void addUser(User user) {
         userList.add(user);
         writeFile();
-    }
+}
 }
