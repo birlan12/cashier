@@ -1,6 +1,6 @@
 package com.smk.cashier.model;
 
-public class User extends Model {
+public class User extends Model{
     private String userName;
     private String password;
 
@@ -28,7 +28,7 @@ public class User extends Model {
                 ", dateCreated=" + dateCreated +
                 ", lastModified=" + lastModified +
                 ", createdBy='" + createdBy + '\'' +
-                ", undatedBy='" + undatedBy + '\'' +
+                ", updateBy='" + updateBy + '\'' +
                 '}';
     }
 }

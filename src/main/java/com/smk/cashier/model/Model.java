@@ -6,7 +6,7 @@ public abstract class Model {
     protected Date dateCreated;
     protected Date lastModified;
     protected String createdBy;
-    protected String undatedBy;
+    protected String updateBy;
 
     public Date getDateCreated() {
         return dateCreated;
@@ -32,13 +32,11 @@ public abstract class Model {
         this.createdBy = createdBy;
     }
 
-    public String getUndatedBy() {
-        return undatedBy;
+    public String getUpdateBy() {
+        return updateBy;
     }
 
-    public void setUndatedBy(String undatedBy) {
-        this.undatedBy = undatedBy;
+    public void setUpdateBy(String updateBy) {
+        this.updateBy = updateBy;
     }
-
-
 }
